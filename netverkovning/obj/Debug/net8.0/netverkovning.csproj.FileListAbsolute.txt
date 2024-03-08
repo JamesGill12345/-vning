@@ -1,0 +1,5 @@
+c:\Users\james.gill\Documents\programering\Övning\netverkovning\obj\Debug\net8.0\netverkovning.csproj.AssemblyReference.cache
+c:\Users\james.gill\Documents\programering\Övning\netverkovning\obj\Debug\net8.0\netverkovning.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\james.gill\Documents\programering\Övning\netverkovning\obj\Debug\net8.0\netverkovning.AssemblyInfoInputs.cache
+c:\Users\james.gill\Documents\programering\Övning\netverkovning\obj\Debug\net8.0\netverkovning.AssemblyInfo.cs
+c:\Users\james.gill\Documents\programering\Övning\netverkovning\obj\Debug\net8.0\netverkovning.csproj.CoreCompileInputs.cache

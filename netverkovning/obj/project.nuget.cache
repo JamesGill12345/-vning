@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NBjIsNfBDdmerVVjyKKqkJkHh52IL99JljJdkfwxh4O/g5zeb4Y3L3fRFf4ODYXuiarjmuMX5cGhMLlM3Dm9gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\james.gill\\Documents\\programering\\Övning\\netverkovning\\netverkovning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\james.gill\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\james.gill\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\james.gill\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
