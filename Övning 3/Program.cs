@@ -97,7 +97,7 @@ static int GetNumberInput()
     double num = 0;
     fel:
     Console.WriteLine("Skriv tre tal");
-    string DataA_string = Console.ReadLine()
+    string DataA_string = Console.ReadLine();
     string DataB_string = Console.ReadLine();
     string DataC_string = Console.ReadLine();
 

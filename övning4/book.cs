@@ -1,7 +1,15 @@
 class Book
 {
-    public string name;
-    public string pages;
-    public int currentPage = 0;
+    private string name;
+    private int pages;
+    private int currentPage = 0;
+
+
+    public Book()
+    {
+        name = "bok1";
+        pages = 100;
+    }
     
 }
+
