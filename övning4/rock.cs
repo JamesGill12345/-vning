@@ -1,9 +1,9 @@
 class Rock
 {
     private int weight;
-    public Rock()
+    public Rock(int w)
     {
-        int weight;
+        weight = w;
     }
 
     static int GetWeight(int weight)

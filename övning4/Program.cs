@@ -37,30 +37,48 @@ static int GetWeight(int weight)
 Console.WriteLine("Skriv ett nummer för att bestämma hur många stenar som ska finnas");
 string rockcounter_string = Console.ReadLine();
 int rockcounter;
-int.TryParse (rockcounter_string, out rockcounter);
+int.TryParse(rockcounter_string, out rockcounter);
 
-Rock r1 = new Rock();
+// Rock r1 = new Rock(5);
 
-int [] rocks ={};
-
-
-Console.WriteLine("ange hur mycket vikt en sten ska ha och skriv exit när du är klar");
-bool exit = false;
-while(exit == false)
-{   
-    int loopcount;
-    loopcount = 1;
-    loopcount ++;
-    string input = Console.ReadLine();
-    if (input == "exit")
-    {
-        exit = true;
-    }
+Rock[] rocks = new Rock[rockcounter];
 
 
+
+for (int i = 0; i < rockcounter; i++)
+{
+    Console.WriteLine($"ange hur mycket vikt sten nummer {i} ska ha");
+    string rocknumweightstring = Console.ReadLine();
+    int rocknumweightint;
+    int.TryParse(rocknumweightstring, out rocknumweightint);
+
+    rocks[i] = new Rock(rocknumweightint);
 }
-int [] arrayrocks = new int[loopcount];
-List<string> stringRocks = new List<string> (arrayrocks);
+
+// bool exit = false;
+// while(exit == false)
+// {   
+//     int Loopcount;
+//     Loopcount = 1;
+//     Loopcount ++;
+//     string Input;
+//     Input = Console.ReadLine();
+//     if (Input == "exit")
+//     {
+//         exit = true;
+
+//          while (Input != "exit")
+//         {
+//         Rock rock = new Rock(GetWeight);
+//         }
+//     }
+
+//     int [] arrayrocks = new int[Loopcount];
+//     List<string> RockList = new List<string> (Rock.weight);
+
+
+// }
+
 
 
 Worker w1 = new Worker();
@@ -87,5 +105,5 @@ else if (input == "2")
 }
 else
 {
-   Console.WriteLine("Fel"); 
+    Console.WriteLine("Fel");
 }
