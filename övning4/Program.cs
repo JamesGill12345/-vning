@@ -6,25 +6,7 @@ Book b1 = new Book();
 Book b2 = new Book();
 Book b3 = new Book();
 
-static int Turnpage(int currentPage)
-{
-    currentPage++;
 
-    return currentPage;
-}
-static int GetCurrentPage(int currentPage)
-{
-    return currentPage;
-}
-
-static string Getname(string name)
-{
-    return name;
-}
-static int Getpages(int pages)
-{
-    return pages;
-}
 
 static int GetWeight(int weight)
 {
